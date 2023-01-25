@@ -252,6 +252,9 @@
 }
 
 .button-54 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -325,6 +328,9 @@
     left: 5px;
   }
 }
+
+
+
 .c-1 :hover{
   background-color: #eceaea;
   /* animation-delay: 10s; */
@@ -335,5 +341,7 @@
   overflow: hidden;
 
 }
-
+.nav-link{
+  cursor: pointer;
+}
 

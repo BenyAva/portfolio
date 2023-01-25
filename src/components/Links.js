@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import resumePdf from '../resume.pdf'
+import resumePdf from '../BA_resume.pdf'
 const Links = (props) => {
 
     return (
@@ -8,12 +8,14 @@ const Links = (props) => {
             <div className='c-block container'>
                 <div className='c-small container-fluid'>
 
-                    <button  class="button-54" role="button"><a href='https://github.com/BenyAva' target='blank'>GitHub</a></button>
-                    <button class="button-54" role="button"><a href='https://www.linkedin.com/in/benigno-avalos-dev' target='blank'>LinkedIn</a></button>
-                    <button class="button-54" role="button"><a href={resumePdf} target='blank'>Resume</a></button>
-                    {/* <a href='https://github.com/BenyAva' target='blank'class="button-54" role="button">Button</a> */}
-                   
+                    <a href='https://github.com/BenyAva' target='blank' class="button-54" role="button">GitHub</a>
 
+                    <a href='https://www.linkedin.com/in/benigno-avalos-dev' target='blank' class="button-54" role="button">LinkedIn</a>
+                    
+                    <a href={resumePdf} target='blank' class="button-54" role="button">Resume</a>
+                    
+                    <a href="mailto:benignoavalos0@gmail.com" target='blank' class="button-54" role="button">Email</a>
+                    
                 </div>
             </div>
         </div>
