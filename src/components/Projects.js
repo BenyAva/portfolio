@@ -21,7 +21,7 @@ const Projects = (props) => {
                     <div class="card-body">
                         <p class="card-text">This web application is a full CRUD, built with Express.js and MongoDB, for managing and storing car information. It features a user-friendly interface and efficient data storage, making it a great tool for car enthusiasts and collectors.</p>
                         <div className='iconsC'>
-                            <a class="fa-solid fa-browser disabled">Demo</a>
+                            <a class="fa-solid fa-browser disabled">Demo Not available</a>
                             <div id='fs'>
                             <a class="fa-brands fa-github disabled">front-end</a>
                             </div>
