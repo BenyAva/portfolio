@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import resumePdf from '../Beni_resume.pdf'
+import resumePdf from '../BA_resume.pdf'
 const Links = (props) => {
 
     return (
